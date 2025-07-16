@@ -1,4 +1,4 @@
-.Work-wrapper{
+.Projects-wrapper{
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 1fr));
 	justify-items: center;

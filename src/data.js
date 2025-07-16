@@ -1,69 +1,82 @@
 import * as icon  from 'react-icons/si'
 
 const profile = {
-	name: 'Carlos Montenegro',
-	role: 'Front End Developer',
-	description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed facere, itaque excepturi, necessitatibus cum ex nisi.',
+	name: 'Cindee Chen',
+	role: 'Software Developer',
+	description: 'Student at University of Toronto, majoring in Mathematics and Computer Science. Passionate about frontend development.',
 };
 
 const social = [
-	{ icon: icon.SiGithub, link: 'https://github.com' },
-	{ icon: icon.SiCodepen, link: 'https://www.medium.com/' },
-	{ icon: icon.SiTwitter, link: 'https://www.twitter.com/' },
-	{ icon: icon.SiInstagram, link: 'https://www.instagram.com/' },
+	{ icon: icon.SiGithub, link: 'https://github.com/cindxyc' },
+	{ icon: icon.SiLinkedin, link: 'https://www.linkedin.com/in/cindxyc/' }
+	// { icon: icon.SiInstagram, link: 'https://www.instagram.com/' },
 ];
 
-const brand = 'Singleton'
+const brand = 'cindxyc'
 
+const experiences = [
+	{
+		position: 'Frontend Developer',
+		company: 'UofTHacks XIII',
+		year: 'May 2025 - Present',
+		description: 'Implement the teaser and home page for Canadian\'s first student run hackathon.'
+	},
+	{
+		position: 'Full Stack Developer',
+		company: 'Inwit',
+		year: 'May 2024 - August 2024',
+		description: 'Revamped the the UI for an e-commerce food catering platform (inwit.app) using PHP and Tailwind CSS. Added a client portal with an order management dashboard featuring order history tracking, stored using MySQL database.'
+	},
+	{
+		position: 'Software Developer Intern',
+		company: 'Cove Neuroscience',
+		year: 'February 2024 - May 2024',
+		description: 'Implemented functions to the pipeline to automatically generate detailed PDF reports from analyzed brain data.'
+	},
+	{
+		position: 'Web Developer & Marketing',
+		company: 'Woodsworth College @ University of Toronto',
+		year: 'May 2022 - September 2023',
+		description: 'Developed and maintained the Orientation website and archived $20k in gross revenue.'
+	}
+]
 
-const work = [
+const projects = [
 	{
-		name: 'Todo app',
-		description: 'Phasellus metus mi, scelerisque eu volutpat non, posuere et massa. Nunc hendrerit, augue non fringilla mattis.',
+		name: 'Two-Pac',
+		description: 'A retro-gamified photo album based on Pac-Man game. Users can collect photos as they navigate through the maze.',
 		stack: [
-			{ icon: icon.SiHtml5, name: 'HTML' },
-			{ icon: icon.SiCss3, name: 'CSS' },
-			{ icon: icon.SiJavascript, name: 'Javascript' },
-			{ icon: icon.SiReact, name: 'ReactJS' },
+			{ icon: icon.SiPython, name: 'Python' },
 		],
-		linkProject: 'https://example.com',
-		linkGithub: 'https://github.com',
+		linkProject: 'https://devpost.com/software/tu-pac',
+		linkGithub: 'https://github.com/cindxyc/UofTHacksXIProject',
 	},
 	{
-		name: 'Pokedex',
-		description: 'Etiam eget volutpat risus. Nam magna bibendum a metus dignissim, id eleifend libero luctus molestie eget.',
+		name: 'Xtreme Mussels',
+		description: 'A fitness app with a focus on personalized workout recommendations. Users can pick different workouts and generate routines to achieve their fitness goals.',
 		stack: [
-			{ icon: icon.SiHtml5, name: 'HTML' },
-			{ icon: icon.SiCss3, name: 'CSS' },
-			{ icon: icon.SiJavascript, name: 'Javascript' },
-			{ icon: icon.SiReact, name: 'ReactJS' },
+			{ icon: icon.SiJava, name: 'Java' },
 		],
-		linkProject: 'https://example.com',
-		linkGithub: 'https://github.com',
+		// linkProject: 'https://example.com',
+		linkGithub: 'https://github.com/cindxyc/Xtreme-Mussels',
 	},
 	{
-		name: 'E-Commerce',
-		description: 'Nullam id mauris auctor, sollicitudin sapien id, sagittis turpis proin et nunc sempe, venenatis erat.',
+		name: 'Jobb!',
+		description: 'High-Fidelity Prototype of a job platform, with an emphasis on company background analysis and job matching based on user preferences.',
 		stack: [
-			{ icon: icon.SiHtml5, name: 'HTML' },
-			{ icon: icon.SiCss3, name: 'CSS' },
-			{ icon: icon.SiJavascript, name: 'Javascript' },
-			{ icon: icon.SiReact, name: 'ReactJS' },
+			{ icon: icon.SiFigma, name: 'Figma' },
 		],
-		linkProject: 'https://example.com',
-		linkGithub: 'https://github.com',
+		linkProject: 'https://www.figma.com/design/mxWx9QRFrbA4GWE4I9yQrb/318?node-id=0-1&t=848j4Ga9WgDncTZC-1',
+		// linkGithub: 'https://github.com',
 	},
 	{
-		name: 'Twitter clon',
-		description: 'Cras leo mauris, gravida vel lectus ac, congue luctus odio. Sed varius varius est eget convallis sagittis sit amet.',
+		name: 'Bookit',
+		description: 'High-Fidelity Prototype of a booking platform targeted towards small businesses. Influenced by Linktree.',
 		stack: [
-			{ icon: icon.SiHtml5, name: 'HTML' },
-			{ icon: icon.SiCss3, name: 'CSS' },
-			{ icon: icon.SiJavascript, name: 'Javascript' },
-			{ icon: icon.SiReact, name: 'ReactJS' },
+			{ icon: icon.SiFigma, name: 'Figma' },
 		],
-		linkProject: 'https://example.com',
-		linkGithub: 'https://github.com',
+		linkProject: 'https://www.figma.com/proto/i6mCdvfnPM0WToX3ZQonwB/Untitled?node-id=1-4&starting-point-node-id=1%3A4m',
+		// linkGithub: 'https://github.com',
 	},
 ]
 
@@ -92,8 +105,18 @@ const stack = [
 ]
 
 const contact = {
-	description: 'Tenetur laudantium? Aliquid ipsum perferendis blanditiis non. Adipisci eos numquam reiciendis, rerum, quo similique reprehenderit. Adipisci eos numquam reiciendis',
+	description: 'Shoot me an email if you want to get in touch, or just say hi :)',
 	email: 'example@email.com'
 }
 
-export { profile, social, work, stack, contact, brand }
+// export { profile, social, projects, stack, contact, brand }
+
+export {
+	profile,
+	social,
+	experiences,
+	projects,
+	stack,
+	contact,
+	brand
+}

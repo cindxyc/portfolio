@@ -1,15 +1,15 @@
 import { v4 as uuidv4 } from 'uuid'
-import { work } from '/src/data.js'
+import { projects } from '/src/data.js'
 import Card from '/src/components/elements/Card'
-import '/src/stylesheets/sections/Work.css'
+import '/src/stylesheets/sections/Projects.css'
 
-const Work = () => {
+const Projects = () => {
 	return (
-		<section className='Work section' id='work'>
+		<section className='Projects section' id='projects'>
 			<div className='container'>
-				<h2 className='Work-h2 section-head'>Work.</h2>
-				<div className='Work-wrapper'>
-					{work.map((c) => (
+				<h2 className='Projects-h2 section-head'>Projects.</h2>
+				<div className='Projects-wrapper'>
+					{projects.map((c) => (
 						<Card
 							name={c.name}
 							description={c.description}
@@ -25,4 +25,4 @@ const Work = () => {
 	)
 }
 
-export default Work
+export default Projects
