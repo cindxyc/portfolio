@@ -12,31 +12,35 @@ const social = [
 	// { icon: icon.SiInstagram, link: 'https://www.instagram.com/' },
 ];
 
-const brand = 'cindxyc'
+const brand = 'XYC'
 
-const experiences = [
+const experience = [
 	{
 		position: 'Frontend Developer',
 		company: 'UofTHacks XIII',
-		year: 'May 2025 - Present',
+		start: 'May 2025',
+		end: 'Present',
 		description: 'Implement the teaser and home page for Canadian\'s first student run hackathon.'
 	},
 	{
 		position: 'Full Stack Developer',
 		company: 'Inwit',
-		year: 'May 2024 - August 2024',
+		start: 'May 2024',
+		end: 'August 2024',
 		description: 'Revamped the the UI for an e-commerce food catering platform (inwit.app) using PHP and Tailwind CSS. Added a client portal with an order management dashboard featuring order history tracking, stored using MySQL database.'
 	},
 	{
 		position: 'Software Developer Intern',
 		company: 'Cove Neuroscience',
-		year: 'February 2024 - May 2024',
+		start: 'February 2024',
+		end: 'May 2024',
 		description: 'Implemented functions to the pipeline to automatically generate detailed PDF reports from analyzed brain data.'
 	},
 	{
 		position: 'Web Developer & Marketing',
 		company: 'Woodsworth College @ University of Toronto',
-		year: 'May 2022 - September 2023',
+		start: 'May 2022',
+		end: 'September 2023',
 		description: 'Developed and maintained the Orientation website and archived $20k in gross revenue.'
 	}
 ]
@@ -47,6 +51,7 @@ const projects = [
 		description: 'A retro-gamified photo album based on Pac-Man game. Users can collect photos as they navigate through the maze.',
 		stack: [
 			{ icon: icon.SiPython, name: 'Python' },
+			// { name: 'Pygame' },
 		],
 		linkProject: 'https://devpost.com/software/tu-pac',
 		linkGithub: 'https://github.com/cindxyc/UofTHacksXIProject',
@@ -56,8 +61,9 @@ const projects = [
 		description: 'A fitness app with a focus on personalized workout recommendations. Users can pick different workouts and generate routines to achieve their fitness goals.',
 		stack: [
 			{ icon: icon.SiJava, name: 'Java' },
+			{ icon: icon.SiSpring, name: 'Spring Boot' },
 		],
-		// linkProject: 'https://example.com',
+		linkProject: '',
 		linkGithub: 'https://github.com/cindxyc/Xtreme-Mussels',
 	},
 	{
@@ -67,7 +73,7 @@ const projects = [
 			{ icon: icon.SiFigma, name: 'Figma' },
 		],
 		linkProject: 'https://www.figma.com/design/mxWx9QRFrbA4GWE4I9yQrb/318?node-id=0-1&t=848j4Ga9WgDncTZC-1',
-		// linkGithub: 'https://github.com',
+		linkGithub: '',
 	},
 	{
 		name: 'Bookit',
@@ -76,7 +82,7 @@ const projects = [
 			{ icon: icon.SiFigma, name: 'Figma' },
 		],
 		linkProject: 'https://www.figma.com/proto/i6mCdvfnPM0WToX3ZQonwB/Untitled?node-id=1-4&starting-point-node-id=1%3A4m',
-		// linkGithub: 'https://github.com',
+		linkGithub: '',
 	},
 ]
 
@@ -106,7 +112,7 @@ const stack = [
 
 const contact = {
 	description: 'Shoot me an email if you want to get in touch, or just say hi :)',
-	email: 'example@email.com'
+	email: 'ccindee.1206@gmail.com'
 }
 
 // export { profile, social, projects, stack, contact, brand }
@@ -114,7 +120,7 @@ const contact = {
 export {
 	profile,
 	social,
-	experiences,
+	experience,
 	projects,
 	stack,
 	contact,

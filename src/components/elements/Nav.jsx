@@ -26,12 +26,15 @@ const Nav = () => {
 			</div>
 			<div className='Nav-menu' data-show={menu} onClick={(e) => handleMenu(e)}>
 				<div className='Nav-menu-wrapper'>
+					<a className='Nav-link' href='#experiences' onClick={() => setMenu(false)}>
+						Experiences.
+					</a>
 					<a className='Nav-link' href='#projects' onClick={() => setMenu(false)}>
 						Projects.
 					</a>
-					<a className='Nav-link' href='#stack' onClick={() => setMenu(false)}>
-						Stack.
-					</a>
+					{/* <a className='Nav-link' href='#resume' onClick={() => setMenu(false)}>
+						Resume.
+					</a> */}
 					<a
 						className='Nav-link'
 						href='#contact'

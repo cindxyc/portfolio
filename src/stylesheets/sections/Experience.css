@@ -1,0 +1,72 @@
+.Experience-wrapper{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 1fr));
+	justify-items: center;
+	gap: var(--margin-2);
+	margin: 0 auto;
+}
+
+/* .Experience {
+    padding: 40px 0;
+}
+
+.Experience-h2{
+	color: var(--accent);
+	font-size: var(--big-sub-head);
+	margin-bottom: var(--margin-4);
+}
+
+.vertical-timeline-element-title,
+.vertical-timeline-element-subtitle,
+.vertical-timeline-element-content li {
+    color: var(--space-cadet) !important;
+}
+
+.Experience li {
+    margin-top: 10px;
+    list-style-type: disc;
+}
+
+.date-style {
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Experience ul {
+    padding-left: 1rem;
+}
+
+.vertical-timeline-element-component {
+    margin-left: -10rem;
+}
+
+.icon-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.svg-icon {
+    width: 115%;
+    height: 115%;
+}
+
+.medme-icon {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1169px) {
+    .date-style {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .Experience ul {
+        padding-left: 1rem;
+    } 
+} */
