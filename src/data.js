@@ -143,14 +143,11 @@ const contact = {
 	email: 'ccindee.1206@gmail.com'
 }
 
-// export { profile, social, projects, stack, contact, brand }
-
 export {
 	profile,
 	social,
 	experience,
 	projects,
-	// stack,
 	contact,
 	brand
 }
