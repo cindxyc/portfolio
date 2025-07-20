@@ -17,6 +17,16 @@
   top: var(--margin-2);
 }
 
+.Experience-incoming {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
 .Experience-year-title {
   font-size: 2rem;
   font-weight: 700;
@@ -24,19 +34,27 @@
   margin: 0;
 }
 
+.Experience-incoming-title {
+  color: var(--accent);
+  font-size: 1.5rem;
+}
+
 .Experience-positions {
   display: flex;
   flex-direction: column;
-  gap: var(--margin-2);
+  gap: var(--margin-3);
 }
 
 .Experience-card {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
-  padding: var(--margin-2);
+  padding: var(--margin-3);
   box-shadow: var(--shadow-sm);
   transition: all 0.3s ease;
+  border: 5px solid var(--accent);
+  border-radius: 50px;
+  position: relative;
 }
 
 .Experience-card:hover {
@@ -44,29 +62,66 @@
   box-shadow: var(--shadow-md);
 }
 
+/* New header container for position and logo */
+.Experience-header {
+  display: block;
+  margin-bottom: 0.8rem;
+  position: relative;
+  min-height: 40px; /* Ensure header has enough height for logo */
+}
+
 .Experience-position {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--text-primary);
-  margin: 0 0 var(--margin-1) 0;
+  margin: 0;
+  padding-right: 50px; /* Make space for the logo */
+  line-height: 40px; /* Align text with logo height */
+}
+
+/* Logo styling */
+.Experience-logo-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: transform 0.2s ease;
+}
+
+.Experience-logo-link:hover {
+  transform: scale(1.1);
+}
+
+.Experience-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
 }
 
 .Experience-company {
-  font-weight: 500;
-  color: var(--text-primary);
-  margin-bottom: var(--margin-half);
+  color: var(--accent);
+  font-size: 1.25rem;
+  /* margin-bottom: 0.5rem; */
 }
 
 .Experience-duration {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  margin-bottom: var(--margin-1);
+  color: var(--accent);
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 .Experience-description {
   color: var(--text-secondary);
-  line-height: 1.6;
   margin: 0;
+}
+
+.Experience-description-line {
+  margin: 0 0 var(--margin-half) 0;
+}
+
+.Experience-description-line:last-child {
+  margin-bottom: 0;
 }
 
 /* Responsive design */
@@ -89,5 +144,19 @@
   
   .Experience-positions {
     gap: var(--margin-1-half);
+  }
+
+  /* Responsive logo adjustments */
+  .Experience-logo {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .Experience-position {
+    font-size: 1.3rem;
+  }
+
+  .Experience-incoming {
+    font-size: 0.8rem;
   }
 }

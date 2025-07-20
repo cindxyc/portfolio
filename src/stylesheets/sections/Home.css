@@ -15,7 +15,7 @@
 	color: var(--accent);
 	font-weight: var(--bold);
 	font-size: var(--big-head);
-	line-height: 1;
+	line-height: 1.5;
 }
 
 .Home-h2{
