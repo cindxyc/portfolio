@@ -122,7 +122,7 @@ export {
 	social,
 	experience,
 	projects,
-	stack,
+	// stack,
 	contact,
 	brand
 }
