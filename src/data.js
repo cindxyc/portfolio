@@ -1,5 +1,12 @@
 import * as icon  from 'react-icons/si'
 
+import pwLogo from '/src/assets/p&w_logo.jpeg'
+import uofthacksLogo from '/src/assets/uofthacks_logo.jpeg'
+import ibmLogo from '/src/assets/ibm_logo.jpeg'
+import inwitLogo from '/src/assets/inwit_logo.jpeg'
+import coveLogo from '/src/assets/cove_logo.png'
+import woodsworthLogo from '/src/assets/woodsworth_logo.jpeg'
+
 const profile = {
 	name: 'Cindee Chen',
 	role: 'Software Developer',
@@ -22,7 +29,7 @@ const experience = [
 		start: 'September 2025',
 		end: 'TBD',
 		description: 'Upcoming position starting in fall 2025.',
-		logo: '/src/assets/p&w_logo.jpeg',
+		logo: pwLogo,
 		link: 'https://www.prattwhitney.com/en',
 		incoming: true
   	},
@@ -32,7 +39,7 @@ const experience = [
 		start: 'May 2025',
 		end: 'Present',
 		description: 'Implement the teaser and home page for Canadian\'s first student run hackathon.',
-		logo: '/src/assets/uofthacks_logo.jpeg',
+		logo: uofthacksLogo,
 		link: 'https://uofthacks.com/'
 	},
 	{
@@ -41,7 +48,7 @@ const experience = [
 		start: 'February 2024',
 		end: 'December 2024',
 		description: 'Completed the IBM Zxplore Concepts badge.\nGained mainframe technology knowledge and developed essential leadership competencies.',
-		logo: '/src/assets/ibm_logo.jpeg',
+		logo: ibmLogo,
 		link: 'https://www.ibm.com/products/z/resources/zxplore'
 	},
 	{
@@ -50,7 +57,7 @@ const experience = [
 		start: 'May 2024',
 		end: 'August 2024',
 		description: 'Revamped the UI for inwit.app (e-commerce food catering platform). \n Added a client portal with an order management dashboard.',
-		logo: '/src/assets/inwit_logo.jpeg',
+		logo: inwitLogo,
 		link: 'https://www.inwit.app'
 	},
 	{
@@ -59,7 +66,7 @@ const experience = [
 		start: 'February 2024',
 		end: 'May 2024',
 		description: 'Implemented functions to the pipeline to automatically generate detailed PDF reports from analyzed brain data.',
-		logo: '/src/assets/cove_logo.png',
+		logo: coveLogo,
 		link: 'https://www.coveneuro.com'
 	},
 	{
@@ -68,7 +75,7 @@ const experience = [
 		start: 'May 2022',
 		end: 'September 2023',
 		description: 'Developed and maintained the Orientation website and archived $20k in gross revenue.',
-		logo: '/src/assets/woodsworth_logo.jpeg',
+		logo: woodsworthLogo,
 		link: 'https://www.instagram.com/wworientation2025/'
 	}
 ]
@@ -111,30 +118,6 @@ const projects = [
 		],
 		linkProject: 'https://www.figma.com/proto/i6mCdvfnPM0WToX3ZQonwB/Untitled?node-id=1-4&starting-point-node-id=1%3A4m',
 		linkGithub: '',
-	},
-]
-
-
-const stack = [
-	{
-		name: 'Front End',
-		items: [
-			{ icon: icon.SiHtml5, name: 'HTML' },
-			{ icon: icon.SiCss3, name: 'CSS' },
-			{ icon: icon.SiBootstrap, name: 'Bootstrap', },
-			{ icon: icon.SiJavascript, name: 'Javascript' },
-			{ icon: icon.SiTypescript, name: 'Typescript' },
-			{ icon: icon.SiReact, name: 'React', },
-		],
-	},
-	{
-		name: 'Back End',
-		items: [
-			{ icon: icon.SiNodedotjs, name: 'NodeJS' },
-			{ icon: icon.SiDeno, name: 'Deno' },
-			{ icon: icon.SiMongodb, name: 'MongoDB', },
-			{ icon: icon.SiFirebase, name: 'Firebase', },
-		],
 	},
 ]
 
