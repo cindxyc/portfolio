@@ -29,14 +29,17 @@ const Nav = () => {
 					<a className='Nav-link' href='#experience' onClick={() => setMenu(false)}>
 						Experiences.
 					</a>
-					<a
-						className="Nav-link"
-						href="/Hubert_Xu_Resume.pdf"
-						target="_blank"
-						rel="noopener noreferrer"
-						onClick={() => setMenu(false)}
-					>
-						Résumé
+					<a className='Nav-link' href='#projects' onClick={() => setMenu(false)}>
+						Projects.
+					</a>
+						<a
+							className="Nav-link"
+							href="/Cindee_Resume.pdf"
+							target="_blank"
+							rel="noopener noreferrer"
+							onClick={() => setMenu(false)}
+						>
+						Resume.
 					</a>
 						<a
 						className='Nav-link'
