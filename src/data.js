@@ -15,7 +15,7 @@ const profile = {
 
 const social = [
 	{ icon: icon.SiGithub, link: 'https://github.com/cindxyc' },
-	{ icon: icon.SiLinkedin, link: 'https://www.linkedin.com/in/cindxyc/' }
+	{ icon: icon.SiLinkedin, link: 'https://www.linkedin.com/in/cindxyc/' },
 	// { icon: icon.SiInstagram, link: 'https://www.instagram.com/' },
 ];
 
@@ -95,8 +95,8 @@ const projects = [
 		name: 'Xtreme Mussels',
 		description: 'A fitness app with a focus on personalized workout recommendations. Users can pick different workouts and generate routines to achieve their fitness goals.',
 		stack: [
-			{ icon: icon.SiJava, name: 'Java' },
-			{ icon: icon.SiSpring, name: 'Spring Boot' },
+			// { icon: icon.SiJava, name: 'Java' },
+			{ icon: icon.SiSpring, name: 'Spring' },
 		],
 		linkProject: '',
 		linkGithub: 'https://github.com/cindxyc/Xtreme-Mussels',
