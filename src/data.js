@@ -6,9 +6,9 @@ import ibmLogo from '/src/assets/ibm_logo.jpeg'
 import inwitLogo from '/src/assets/inwit_logo.jpeg'
 import coveLogo from '/src/assets/cove_logo.png'
 import woodsworthLogo from '/src/assets/woodsworth_logo.jpeg'
-import twopacSample from '/src/assets/two-pac.png'
+import twopacSample from '/src/assets/two_pac.png'
 import xtremeMusselsSample from '/src/assets/XtremeMussels.png'
-import jobbSample from '/src/assets/Jobb!.png'
+import jobbSample from '/src/assets/Jobb.png'
 import bookitSample from '/src/assets/Bookit.png'
 
 const profile = {
@@ -26,12 +26,11 @@ const social = [
 const brand = 'XYC'
 
 const experience = [
-	// Incoming Experience Section
 	{
 		position: 'Software Developer Intern',
 		company: 'Pratt & Whitney Canada',
 		start: 'September 2025',
-		end: 'TBD',
+		end: 'December 2025',
 		description: 'Upcoming position starting in fall 2025.',
 		logo: pwLogo,
 		link: 'https://www.prattwhitney.com/en',
@@ -88,9 +87,9 @@ const projects = [
 	{
 		name: 'Two-Pac',
 		description: 'A retro-gamified photo album based on Pac-Man game. Users can collect photos as they navigate through the maze.',
-		stack: [
-			{ icon: icon.SiPython, name: 'Python' },
-		],
+		// stack: [
+		// 	{ icon: icon.SiPython, name: 'Python' },
+		// ],
 		sample: twopacSample,
 		linkProject: 'https://devpost.com/software/tu-pac',
 		linkGithub: 'https://github.com/cindxyc/UofTHacksXIProject',
@@ -98,10 +97,9 @@ const projects = [
 	{
 		name: 'Xtreme Mussels',
 		description: 'A fitness app. Users can pick different workouts and generate routines to achieve their fitness goals.',
-		stack: [
-			// { icon: icon.SiJava, name: 'Java' },
-			{ icon: icon.SiSpring, name: 'Spring' },
-		],
+		// stack: [
+		// 	{ icon: icon.SiSpring, name: 'Spring' },
+		// ],
 		sample: xtremeMusselsSample,
 		linkProject: '',
 		linkGithub: 'https://github.com/cindxyc/Xtreme-Mussels',
@@ -109,19 +107,19 @@ const projects = [
 	{
 		name: 'Jobb!',
 		description: 'High-Fidelity Prototype of a job platform, with an emphasis on company background analysis and job matching.',
-		stack: [
-			{ icon: icon.SiFigma, name: 'Figma' },
-		],
+		// stack: [
+		// 	{ icon: icon.SiFigma, name: 'Figma' },
+		// ],
 		sample: jobbSample,
-		linkProject: 'https://www.figma.com/design/mxWx9QRFrbA4GWE4I9yQrb/318?node-id=0-1&t=848j4Ga9WgDncTZC-1',
+		linkProject: 'https://www.figma.com/proto/mxWx9QRFrbA4GWE4I9yQrb/318?node-id=22-10&t=t1VgS1HIEtdRn4hV-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=36%3A866&show-proto-sidebar=1',
 		linkGithub: '',
 	},
 	{
 		name: 'Bookit',
 		description: 'High-Fidelity Prototype of a booking platform targeted towards small businesses. UI inspired by Linktree.',
-		stack: [
-			{ icon: icon.SiFigma, name: 'Figma' },
-		],
+		// stack: [
+		// 	{ icon: icon.SiFigma, name: 'Figma' },
+		// ],
 		sample: bookitSample,
 		linkProject: 'https://www.figma.com/proto/i6mCdvfnPM0WToX3ZQonwB/Untitled?node-id=1-4&starting-point-node-id=1%3A4m',
 		linkGithub: '',

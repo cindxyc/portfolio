@@ -13,7 +13,7 @@ const Projects = () => {
 						<Card
 							name={c.name}
 							description={c.description}
-							stack={c.stack}
+							sample={c.sample}
 							linkProject={c.linkProject}
 							linkGithub={c.linkGithub}
 							key={uuidv4()}

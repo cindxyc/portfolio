@@ -3,7 +3,7 @@ import { SiGithub } from 'react-icons/si'
 import Icon from '/src/components/elements/Icon.jsx'
 import '/src/stylesheets/elements/Card.css'
 
-const Card = ({ name, stack, description, sample, linkProject, linkGithub }) => {
+const Card = ({ name, description, sample, linkProject, linkGithub }) => {
 	return (
 		<div className='Card'>
 			<h3 className='Card-h3'>{name}</h3>
