@@ -2,13 +2,17 @@
 
 :root {
   /*Color HSL*/
-  --theme-hue: 225deg;
-  --theme-sat: 26%;
-  --theme-lit: 21%;
-
+  --theme-hue: 208deg;
+  --dark-hue: 213deg;
+  
+ 
   /* Color palette */
-  --space-cadet: hsl(var(--theme-hue), var(--theme-sat), var(--theme-lit));
-  --ghost-white: hsl(var(--theme-hue), 14%, 90%);
+  /* --light-azure: hsl(var(--theme-hue), var(--theme-sat), var(--theme-lit)); */
+  --light-lightsky: hsl(var(--theme-hue), 100%, 97%);
+  --light-sky: hsl(var(--theme-hue), 95%, 88%);
+  --dark-sky: hsl(var(--dark-hue), 65%, 13%);
+  --dark-darksky: hsl(var(--dark-hue), 37%, 7%);
+
 
   /* Typography */
   --font: "Open Sans";
@@ -36,12 +40,16 @@
 
 /* Theme Light */
 :root {
-  --primary: var(--ghost-white);
-  --accent: var(--space-cadet);
+  --primary: var(--light-lightsky);
+  --secondary: var(--light-sky);
+
+  --accent: hsl(var(--theme-hue), 45%, 22%);
 }
 
 /* Theme Dark */
 [data-theme="dark"] {
-  --primary: var(--space-cadet);
-  --accent: var(--ghost-white);
+  --primary: var(--dark-sky);
+  --secondary: var(--dark-darksky);
+
+  --accent: hsl(var(--dark-hue), 35%, 85%);
 }
