@@ -1,4 +1,6 @@
 .App{
-  color: var(--accent);
-  background-color: var(--primary);
+ color: var(--accent);
+ /* background-color: var(--primary); */
+ background: linear-gradient(var(--primary), var(--secondary));
+ min-height: 100vh;
 }
