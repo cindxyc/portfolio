@@ -62,7 +62,7 @@ Install NPM or PNPM
    ```
 
 
-## Credit: Singleton by Carlos Montenegro
+## Credit: Singleton (by Josneth Moreno)
 Singleton is a Minimal Portfolio Template built with React and Vite, easy to use 
 
 
