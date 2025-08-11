@@ -1,12 +1,13 @@
 <div id="top"></div>
 
+# Cindee's Portfolio
 
-# Singleton
-Singleton is a Minimal Portfolio Template built with React and Vite, easy to use 
+<img src="src/images/Preview_light.png" alt="Home UI">
 
-<img src="src/images/home.png" alt="Home UI">
+<img src="src/images/Preview_dark.png" alt="Home UI">
 
-[Live Preview](https://singleton-portfolio.netlify.app/)
+[View Cindee's Portfolio](https://cindxyc.netlify.app)
+
 
 
 ## Prerequisites
@@ -59,6 +60,11 @@ Install NPM or PNPM
    ```sh
    npm run preview
    ```
+
+
+## Credit: Singleton by Carlos Montenegro
+Singleton is a Minimal Portfolio Template built with React and Vite, easy to use 
+
 
 ## License
 
